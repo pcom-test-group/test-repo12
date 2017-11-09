@@ -8,6 +8,9 @@
     ],
     "require": {},
     "repositories": [
-        {"name":"pcom/acme","type":"wordpress-plugin","source":{"type":"git","url":"https://github.com/pcom-test-group/acme"}}
+        {
+            "type": "package",
+            "package": {"name":"pcom/acme","type":"wordpress-plugin","source":{"type":"git","url":"https://github.com/pcom-test-group/acme"}}
+        }
     ]
 }
