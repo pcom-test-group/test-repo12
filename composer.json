@@ -6,5 +6,8 @@
             "email": "stephan.vock@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "repositories: [
+       {"name":"pcom/acme","type":"wordpress-plugin","source":{"type":"git","url":"https://github.com/pcom-test-group/acme"}}
+    ]
 }
