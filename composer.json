@@ -6,11 +6,27 @@
             "email": "stephan.vock@gmail.com"
         }
     ],
-    "require": {},
     "repositories": [
         {
             "type": "package",
-            "package": {"name":"pcom/acme","type":"wordpress-plugin","source":{"type":"git","url":"https://github.com/pcom-test-group/acme"}}
+            "package": {
+                "name": "smarty/smarty",
+                "dist": {
+                    "url": "http://www.smarty.net/files/Smarty-3.1.7.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "http://smarty-php.googlecode.com/svn/",
+                    "type": "svn",
+                    "reference": "tags/Smarty_3_1_7/distribution/"
+                },
+                "autoload": {
+                    "classmap": ["libs/"]
+                }
+            }
         }
-    ]
+    ],
+    "require": {
+        "smarty/smarty": "3.1.*"
+    }
 }
