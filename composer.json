@@ -7,7 +7,7 @@
         }
     ],
     "require": {},
-    "repositories: [
-       {"name":"pcom/acme","type":"wordpress-plugin","source":{"type":"git","url":"https://github.com/pcom-test-group/acme"}}
+    "repositories": [
+        {"name":"pcom/acme","type":"wordpress-plugin","source":{"type":"git","url":"https://github.com/pcom-test-group/acme"}}
     ]
 }
